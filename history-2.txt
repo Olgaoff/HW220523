@@ -1,0 +1,7 @@
+   0 date > output.txt
+   1 df -h / >> output.txt
+   2 history | tail - 5 >>output.txt
+   3 history | tail - 5 >> output.txt
+   4 cat /proc/cpuinfo | grep vendor | sort -u >> output.txt
+   5 ps -ef | wc - 1 >> output.txt
+   6 history > /tmp/history.txt
